@@ -1,3 +1,24 @@
 .container {
     text-align: center;
 }
+
+table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+ul {
+    list-style-position: inside; /* Joondab loendimärgid tekstiga, et nad asuksid samal joonel */
+    padding: 0; /* Keskendab loendi konteineris ja eemaldab loendi tühiku vasakul ääres.*/
+    margin: 0 auto; /* Keskendab loendi konteineris ja eemaldab loendi tühiku vasakul ääres. */
+    display: inline-block; /* Paneb loendi käituma kui üks rida, et seda oleks lihtsam konteineri sees keskele joondada. */
+    text-align: left; /* Hoidab iga loendi elemendi teksti joondatuna oma märgiga vasakule. */
+}
+
+html {
+    background-color: black;
+}
+
+h1, p, ul, td, th {   /* h1 = pealkiri, p = lõik, ul = loend, li = punktid, td = tabel, th = tabel tabel = tabel */
+    color: white;
+}
